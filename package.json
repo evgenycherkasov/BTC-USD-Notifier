@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,8 @@
   "dependencies": {
     "request": "^2.88.2",
     "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nexe": "^3.3.7"
   }
 }
